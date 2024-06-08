@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Medco Care</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <header>
+        <img src="Logo_Medco-Medical-Care.png" />
+        <nav>
+            <ul>
+                 <li><a href="index.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="Blog-of-healt.html">Blog of Health</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="IT-Solution.html">IT Solutions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-section">
+            <h2>Welcome to Medco Care</h2>
+            <p>Medco Care is a leading provider of medical equipment and IT solutions in the healthcare industry. We aim to provide high-quality products and services to healthcare professionals, hospitals, clinics, and medical institutions.</p>
+            <p>Our mission is to improve patient care and healthcare outcomes by offering innovative and reliable medical equipment and IT solutions tailored to the needs of our clients.</p>
+            <?php
+                // Example of dynamic content using PHP
+                $yearFounded = 2010;
+                $numEmployees = 200;
+            ?>
+            <p>Medco Care was founded in <?php echo $yearFounded; ?> and currently employs <?php echo $numEmployees; ?> dedicated professionals.</p>
+            <p>At Medco Care, we are committed to excellence, integrity, and customer satisfaction. We work closely with our partners and suppliers to ensure that we deliver the best products and services to our clients.</p>
+            <p>Thank you for choosing Medco Care for your medical equipment and IT solution needs. We look forward to serving you and helping you achieve your healthcare goals.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <?php echo date("Y"); ?> Medco Care. All rights reserved.</p>
+    </footer>
+</body>
+</html>

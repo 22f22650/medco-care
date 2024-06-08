@@ -1,0 +1,630 @@
+/*log in*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #007bff;
+    position: relative; /* Required for the pseudo-element */
+}
+
+.login-container:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    background: linear-gradient(45deg, #007bff, #2cb899);
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.logo-container {
+    background: linear-gradient(45deg, #007bff, #39e6c085);
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* Add color for the text */
+}
+
+.logo-container img {
+    width: 1000px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1272d8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: 0056b3;
+}
+
+/*register*/
+/*register*/
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*home page*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.banner img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.banner p {
+    font-size: 20px; /* Adjust the font size for paragraph in the banner */
+}
+
+header {
+    background-color:#4ca7f1a2;
+    color: #ffffff;
+    padding: 20px 0;
+    background: linear-gradient(45deg, #007bff, #2cb899);
+    }
+
+header h1 {
+    margin:0 ;
+    font-size: 25px; /* Adjust the font size for the header */
+}
+
+nav {
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: #000000b2;
+    text-decoration: none;
+    font-size: 20px; /* Adjust the font size as needed */
+}
+
+.hero {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.featured-products {
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #4ca7f1a2;
+    color: #000000;
+    padding: 0px 0;
+    text-align: center;
+}
+footer p {
+    font-size: 20px; /* Adjust the font size for text in the footer */
+}
+/*about us*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+    text-align: center; /* Center align the heading */
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+.about-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-section h2 {
+    color: #333;
+    font-size: 25px; /* Adjust the size of section headings */
+}
+
+.about-section p {
+    margin-bottom: 20px;
+    font-size: 20px; /* Adjust the size of paragraph text */
+}
+
+footer {
+    background-color: #4ca7f1a2;
+    color: #000000;
+    padding: 0px 0;
+    text-align: center;
+    font-size: 20px; /* Adjust the size of text in the footer */
+}
+/*blog of health*/
+body {
+    font-size: 20px; /* Adjust the font size for all text */
+} 
+header h1 {
+    margin: 0;
+    color: #333;
+    text-align: center; /* Center align the heading */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.blog-post {
+    margin-bottom: 40px;
+}
+
+.article-box {
+    border: 4px solid, #00458f;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.article-box h2 {
+    color: #000000;
+}
+
+.article-box p {
+    color: #555;
+}
+footer {
+    background-color: #4ca7f1a2;
+    color: #000000;
+    padding: 0px 0;
+    text-align: center;
+}
+footer p {
+    font-size: 20px; /* Adjust the font size for text in the footer */
+}
+/*product*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center; /* Center align the content */
+
+  }
+
+  .product {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    position: relative; /* Needed for pseudo-element */
+    overflow: hidden; /* Hide overflow to prevent border overlapping with shadow */
+  }
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.products {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.product {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.product-details {
+    text-align: center;
+}
+
+.product-details h2 {
+    margin-bottom: 10px;
+}
+
+.product-details p {
+    margin-bottom: 20px;
+}
+
+.price {
+    font-weight: bold;
+    color: #007bff; /* Blue color for price */
+}
+
+.product-image {
+    text-align: center;
+}
+
+.product-image .button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.product-image .button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+footer {
+  background-color: #4ca7f1a2;
+  color: #000000;
+  padding: 0px 0; /* Added padding to give space around the text */
+  text-align: center; /* Center align the text */
+}
+
+footer p {
+  font-size: 20px; /* Adjust the font size for text in the footer */
+}
+
+/*order details*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color:#4ca7f1a2;
+    color: #ffffff;
+    padding: 20px 0;
+    background: linear-gradient(45deg, #007bff, #2cb899);
+    text-align: center; /* Center align the text */
+    }
+
+    .center {
+        text-align: center;
+    }
+
+header h1 {
+    margin:0 ;
+    font-size: 25px; /* Adjust the font size for the header */
+}
+
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    appearance: none;
+    background-image: url("arrow.png");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+    padding-right: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4ca7f1a2;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007bff;
+}
+
+
+footer {
+    background-color: #4ca7f1a2;
+    color: #ffffff;
+    padding: 0px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+footer p {
+    font-size: 20px; /* Adjust the font size for text in the footer */
+}
+
+/*it solution*/
+
+.problem-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    }
+    
+    .problem-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    min-height: 300px; /* Increase the minimum height */
+    margin-bottom: 20px; /* Increase the bottom margin */
+    }
+    
+    .submit-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    
+    .submit-btn:hover {
+    background-color: #a6cffa;
+    }
+
+    footer {
+        background-color: #4ca7f1a2;
+        color: #000000;
+        padding: 0px 0;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    footer p {
+        font-size: 20px; /* Adjust the font size for text in the footer */
+    }
+
+    /*contact us*/
+.contact {
+    margin-bottom: 20px;
+    max-width: 800px; /* Adjust the width as needed */
+    text-align: center; /* Center align text within the section */
+    margin: 0 auto; /* Center align the section */
+    padding: 20px; /* Add padding for space around the content */
+    border: 5px none; /* Add border for frame-like appearance */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+.contact h1 {
+    margin-top: 0; /* Remove default margin for the heading */
+}
+
+.contact p {
+    margin-bottom: 20px; /* Add bottom margin for paragraphs */
+}
+
+.contact a {
+    color: #000000; /* Set link color */
+    text-decoration: none; /* Remove default underline from links */
+}
+
+.contact a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.contact img {
+    margin-right: 10px; /* Add right margin to social media icons */
+}
